@@ -111,7 +111,7 @@ body {
 }
 
 .left-content {
-  background: url(/images/paul-frenzel-MnHQMzC6n-o-unsplash.jpg) no-repeat center;
+  background: url(/images/tyler-lastovich-d0Sl3AH8Tlg-unsplash.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -168,8 +168,20 @@ body {
   
 }
 
-
-
+.menu li a:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.3s ease;
+  bottom: 25%;
+}
+.menu li a:hover::after {
+  width: 4%;
+  height: 1px;
+  background-color: #fff;
+}
 
 
 

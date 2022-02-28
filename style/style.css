@@ -107,11 +107,11 @@ a {
 
 body {
   font-size: 100%;
-  font-family: "Poppins", sans-serif;
+  
 }
 
 .left-content {
-  background: url(/images/tyler-lastovich-d0Sl3AH8Tlg-unsplash.jpg) no-repeat center;
+  background: url(/images/paul-frenzel-MnHQMzC6n-o-unsplash.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -148,8 +148,8 @@ body {
   list-style: none;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
-  padding-top:30px !important ;
-  padding: 40px;
+
+  padding: 20px;
 
 
 }
